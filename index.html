@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Moedas </title>
+</head>
+
+<body>
+    <img id="logo1" src="./assets/logo.gif" alt="">
+    <img id="logo" src="./assets/logo.gif" alt="">
+
+
+    <main>
+        <section>
+            <p>Converter de</p>
+            <select id="select1">
+                <option value="1">R$ Real Brasileiro</option>
+                <option value="2">US$ Dólar Americano</option>
+                <option value="3">€ Euro</option>
+            </select>
+
+            <p>Converter para</p>
+
+            <select id="select2">
+                <option value="1">R$ Real Brasileiro</option>
+                <option value="2">US$ Dólar Americano</option>
+                <option value="3">€ Euro</option>
+            </select>
+
+            <p>Valor</p>
+            <input id="valor-input" type="number" placeholder="Valor para Conversão ">
+
+            <button onclick="convert()">Converter</button>
+        </section>
+        <footer>
+            <img id="band1" src="./assets/brasil.png" alt="">
+            <p id="name-in">Moeda a Converter</p>
+            <p id="valor-in"> <b>Valor a ser convertido</b></p>
+            <img id="vector" src="./assets/Vector.png" alt="">
+            <img id="band2" src="./assets/brasil.png" alt="">
+            <p id="name-out">Moeda Convertida</p>
+            <p id="valor-out"><b>Valor convertido</b></p>
+        </footer>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
