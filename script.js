@@ -118,6 +118,7 @@ function select2() {
                 flag2.src = './assets/brasil.png'
                 nameOut.innerHTML = "Real Brasileiro"
 
+                
         } if (coin2 == 2) {
                 flag2.src = './assets/usa.png'
                 nameOut.innerHTML = "Dólar Americano"
